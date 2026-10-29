@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   // PASTE YOUR SSIS-INVENTORY GOOGLE APPS SCRIPT WEB APP EXEC URL HERE
   // Ensure it ends with '?action=getAppHtml'
-  const APPSCRIPT_URL = process.env.APPSCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyyGPNqynUvu7gPKQHG7C1gajbTDFVGbog4ToE2vesnJKaeWPdKiwrAY1Bh6WbMOXVqyA/exec?action=getAppHtml';
+  const APPSCRIPT_URL = process.env.APPSCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwbVWXMTJKkEVXjxEqOl7lX7pEdx2CFRXNHHrCgZLoERuLI06iwa4iOclKW0QfcaQ_Hfg/exec?action=getAppHtml';
 
   try {
     const response = await fetch(APPSCRIPT_URL, {
